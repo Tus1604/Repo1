@@ -1,0 +1,169 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f9; /* Light blue background */
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50; /* Dark blue-gray background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle top box shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    border-radius: 3px; /* Rounded corners */
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* White background with low opacity on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.skill-box {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.skill-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.skill-box img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.skill-box-content {
+    flex: 1;
+}
+
+.skill-box-content h3 {
+    margin-top: 0;
+    color: #1e3799; /* Dark blue text */
+}
+
+.skill-box-content ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    color: #333333; /* Dark gray text */
+}
+
+.Project-box {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.Project-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.Project-box img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact-links {
+    display: inline-block;
+    margin: 10px;
+}
+
+.contact-links a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.contact-links a:hover {
+    transform: scale(1.2);
+}
+
+.contact-phone {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #1e3799; /* Dark blue text */
+}
+
+form {
+    margin-top: 30px;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2c3e50; /* Purple background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+button:hover {
+    background-color: #3498db; /* Blue background on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50; /* Dark blue-gray background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle top box shadow */
+}
